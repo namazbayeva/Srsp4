@@ -28,8 +28,8 @@ class _RegisterFormPageState extends State<RegisterFormPage> {
   final _passController = TextEditingController();
   final _confirmPassController = TextEditingController();
 
-  final List<String> _countries = ['Russia', 'Ukraine', 'Germany', 'France'];
-  String _selectedCountry = 'Russia';
+  final List<String> _countries = ['Kazakhstan', 'Ukraine', 'Germany', 'France', 'Russia'];
+  String _selectedCountry = 'Kazakhstan';
 
   final _nameFocus = FocusNode();
   final _phoneFocus = FocusNode();
